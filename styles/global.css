@@ -29,10 +29,26 @@ a {
   color: inherit;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
 
 button {
   font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+}
+
+ol {
+  list-style: none;
 }
