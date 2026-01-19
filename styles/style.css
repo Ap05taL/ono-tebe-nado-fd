@@ -96,7 +96,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 0 50px;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
@@ -110,7 +110,7 @@
 }
 
 .bet__button {
-  padding: 12px 32px 12px 32px;
+  padding: 12px 32px;
   background-color: transparent;
   box-sizing: border-box;
   min-width: 256px;
@@ -149,38 +149,11 @@
   display: flex;
 }
 
-.card_type_film {
-  position: relative;
-  height: 100%;
-  background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-}
-
-.card_type_book {
-  position: relative;
-  height: 100%;
-  background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-}
-
+.card_type_film,
+.card_type_book,
 .card_type_picture {
   position: relative;
   height: 100%;
-  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,27 +164,38 @@
   text-align: start;
 }
 
-.card__title {
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title,
+.card__text {
   position: relative;
   z-index: 1;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.card__title {
   text-transform: uppercase;
   text-decoration: underline;
   font-size: 22px;
   font-weight: 700;
-  line-height: 120%;
   padding: 48px 40px 0 48px;
-  color: #FFFFFF;
 }
 
 .card__text {
-  position: relative;
-  z-index: 1;
   font-size: 20px;
   font-weight: 400;
-  line-height: 120%;
   padding: 0 40px 48px 40px;
-  color: #FFFFFF;
-  
 }
 
 .lots__look-more-link {
