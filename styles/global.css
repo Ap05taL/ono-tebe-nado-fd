@@ -29,8 +29,9 @@ a {
   color: inherit;
 }
 
-a:hover {
+a:hover{
   text-decoration: none;
+  list-style: none;
 }
 
 img {
@@ -47,6 +48,11 @@ button {
   cursor: pointer;
   outline: none;
   appearance: none;
+}
+
+button:hover {
+  transition: .8s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 ol {
