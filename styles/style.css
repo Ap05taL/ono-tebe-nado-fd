@@ -11,6 +11,7 @@
   gap: 25px;
   list-style: circle;
   font-size: 18px;
+  padding-left: 50px;
 }
 
 .header__links-list-item:hover {
@@ -31,6 +32,7 @@
   max-width: 240px;
   max-height: 98px;
   font-size: 18px;
+  margin-right: 50px;
 }
 
 .main {
@@ -62,6 +64,8 @@
   position: relative;
   z-index: 1;
   color: #FFFFFF;
+  min-width: 1000px;
+  min-height: 385px;
   padding: 165px 50px 106px 50px;
 }
 
@@ -117,14 +121,16 @@
 }
 
 .lots {
+  outline: red 1px solid;
   min-width: 1052px;
   min-height: 723px;
-  padding-top: 180px;
+  margin-top: 180px;
 } 
   
 .lots__heading {
   padding: 0 0 27px 40px;
   text-transform: uppercase;
+  font-size: 40px;
 }
 
 .lots__card-list {
@@ -222,23 +228,27 @@
   min-height: 595px;
   display: grid;
   grid-template-columns: 334px auto;
-  padding-top: 120px;
+  margin-top: 120px;
+  outline: red 1px solid;
 }
 
 .about__column {
   justify-content: center;
   align-items: center;
+  margin-left: 72px;
+  margin-right: 24px;
 }
 
 .about__logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 35px;
 }
 
 .about__logo-image {
-  width: 240px;
-  height: 240px;
+  min-width: 240px;
+  min-height: 240px;
   background-image: url(../images/logo-white.svg);
   background-color: #000000;
   background-repeat: no-repeat;
@@ -251,7 +261,8 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 100px 0 136px 0;
+  padding: 136px 0 100px 0;
+  outline: red 1px solid;
 }
 
 .about__text {
@@ -265,17 +276,21 @@
 }
 
 .footer {
+  outline: red 1px solid;
   min-width: 1100px;
   min-height: 180px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 180px 50px 82px 50px;
+  margin-top: 180px;
+  padding: 0 50px 85px 50px;
 }
 
 .footer__address {
   display: flex;
   flex-direction: column;
   text-align: start;
+  max-width: 264px;
+  max-height: 98px;
   font-size: 18px;
 }
 
@@ -292,6 +307,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  min-width: 240px;
+  min-height: 48px;
   gap: 48px;
 }
 
