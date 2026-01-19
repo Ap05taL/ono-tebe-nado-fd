@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 100px 50px;
+  min-width: 1100px;
+  min-height: 293px;
 }
 
 .header__links-list {
@@ -42,6 +43,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-width: 1100px;
   min-height: 757px;
 }
 
@@ -115,6 +117,8 @@
 }
 
 .lots {
+  min-width: 1052px;
+  min-height: 723px;
   padding-top: 180px;
 } 
   
@@ -214,10 +218,11 @@
 }
 
 .about {
+  min-width: 1052px;
+  min-height: 595px;
   display: grid;
   grid-template-columns: 334px auto;
   padding-top: 120px;
-  padding-bottom: 180px;
 }
 
 .about__column {
@@ -260,9 +265,11 @@
 }
 
 .footer {
+  min-width: 1100px;
+  min-height: 180px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0 50px 82px 50px;
+  padding: 180px 50px 82px 50px;
 }
 
 .footer__address {
