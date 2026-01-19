@@ -75,7 +75,7 @@
   width: 100%;
   font-size: 100px;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   gap: 20px;
 }
 
@@ -235,8 +235,7 @@
 .about__column {
   justify-content: center;
   align-items: center;
-  margin-left: 72px;
-  margin-right: 24px;
+  padding: 0 24px 0 72px;
 }
 
 .about__logo {
@@ -305,8 +304,7 @@
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
   min-width: 240px;
   min-height: 48px;
   gap: 48px;
