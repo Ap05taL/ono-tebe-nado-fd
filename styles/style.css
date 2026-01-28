@@ -20,6 +20,14 @@
   list-style: none;
 }
 
+.header__links-list-item:first-child {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__logo {
   display: block;
   min-width: 135px;
@@ -34,6 +42,7 @@
   max-width: 264px;
   font-size: 18px;
   line-height: 24px;
+  font-style: normal;
 }
 
 .header__address {
@@ -73,7 +82,6 @@
   z-index: 1;
   color: #FFFFFF;
   min-width: 1000px;
-  min-height: 385px;
   padding: 165px 50px 106px 50px;
 }
 
@@ -141,6 +149,7 @@
 .lots__card-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -272,6 +281,10 @@
   text-align: center;
   gap: 25px;
   font-size: 18px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
